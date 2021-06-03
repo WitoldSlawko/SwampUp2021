@@ -13,7 +13,7 @@ git push -u origin python
 
 2. In `lab1/{java,python}/pipelines.resources.yml`, Update the git resource by using your own git repo :
 ```
-      path: cyan21/SwampUp2021
+      path: WitoldSlawko/SwampUp2021
 ```
 
 3. Create the following Pipelines integrations :

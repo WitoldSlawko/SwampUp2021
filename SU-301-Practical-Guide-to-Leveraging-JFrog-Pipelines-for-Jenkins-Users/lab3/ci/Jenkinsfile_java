@@ -38,7 +38,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'MY_GIT_URL', defaultValue: 'https://github.com/cyan21/Swampup2021.git', description: '')
+        string(name: 'MY_GIT_URL', defaultValue: 'https://github.com/WitoldSlawko/Swampup2021.git', description: '')
         string(name: 'MY_GIT_BRANCH', defaultValue: 'main', description: '')
         string(name: 'TRAINING_PATH', defaultValue: 'SU-301-Practical-Guide-to-Leveraging-JFrog-Pipelines-for-Jenkins-Users', description: '')
         string(name: 'NEW_VERSION', defaultValue: '1.0.0', description: '')

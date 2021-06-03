@@ -19,7 +19,7 @@ git push -u origin k8s
 ```
 K8sResources:
   gitRepoHelm:
-    path: cyan21/SwampUp2021
+    path: WitoldSlawko/SwampUp2021
   ...
   releaseName: my-web-app
 ```
@@ -61,7 +61,7 @@ git push -u origin vm
 * From Yaml 
 * Pipeline Config File Filter : `SU-301-Practical-Guide-to-Leveraging-JFrog-Pipelines-for-Jenkins-Users/lab3/cd/vm/.*\.yml`
 
-3. Fork this github repository `https://github.com/cyan21/JFrogPipeExtensions`
+3. Fork this github repository `https://github.com/WitoldSlawko/JFrogPipeExtensions`
 
 ### To load a JFrog Extension
 

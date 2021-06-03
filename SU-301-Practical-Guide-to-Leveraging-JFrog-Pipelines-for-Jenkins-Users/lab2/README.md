@@ -2,7 +2,7 @@
 
 1. In `lab2/{java,python}/pipelines.resources.yml`, Update the git resource by using your own git repo :
 ```
-      path: cyan21/SwampUp2021
+      path: WitoldSlawko/SwampUp2021
 ```
 
 2. In `lab2/{java,python}/pipelines.steps.yml`, replace  **swampup301.jfrog.io** **ONLY** in the Docker Pipeline with your own JFrog Platform URL
