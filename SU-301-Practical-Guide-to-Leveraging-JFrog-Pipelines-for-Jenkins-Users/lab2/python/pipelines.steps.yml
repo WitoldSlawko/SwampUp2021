@@ -4,7 +4,7 @@ pipelines:
       environmentVariables:
         readOnly:
           trainingPath: SU-301-Practical-Guide-to-Leveraging-JFrog-Pipelines-for-Jenkins-Users
-          dockerRepo: swampup301.jfrog.io/urs-docker
+          dockerRepo: slawkow.jfrog.io/urs-docker
           pythonRepo: urs-python
           genericRepo: urs-generic
           genericPromotionRepo: urs-generic-release-local
@@ -115,7 +115,7 @@ pipelines:
             - name: lab2_src_dockerfile_webapp_python
             - name: lab2_fs_webapp_python
           integrations:
-            - name: artifactory_eu
+            - name: artifactory_docker
 #            - name: artifactory_docker
         execution:
           onStart:
